@@ -1,0 +1,74 @@
+<doctype class="html"></doctype>
+<!-- add our html element, we will also be adding the language attribute -->
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1">
+    <meta name="description" content="">
+    <title> poster mid-term assignment </title><!-- title of assignment| what were doing in the assignment-->
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="Hero">
+        <video autoplay loop muted plays-inline class="background">
+            <source src="vids/howls.mp4" type="video/mp4">
+        </video>
+
+
+    </div>
+
+    <header>
+        <div class="logo-container">
+            <a href="https://www.studioghibli.com.au/">
+                <img src="img/Studio_Ghibli_portal_logo.png" alt="studio_Ghibli_logo">
+            </a>
+        </div>
+        <div class="title-container">
+            <img src="img/howl's logo.png" alt="Howls Moving Castle/Button" id="video-button">
+        </div>
+
+        <div class="video-player-container" id="video-player">
+
+            <iframe width=" 1904" height="760" src="https://www.youtube.com/embed/fVJT5D3WPv8"
+                title="Howls Moving Castle Official Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <script>
+
+            const videoButton = document.getElementById('video-button');
+            const videoPlayer = document.getElementById('video-player');
+            const backgroundVideo = document.getElementById('background-video');
+            const youtubePlayer = videoPlayer.querySelector('iframe');
+            //imbeded hidden youtube trailer for the movie
+            videoButton.addEventListener('click', function () {
+                videoPlayer.style.display = 'block';
+                youtubePlayer.src = "https://www.youtube.com/embed/fVJT5D3WPv8";
+                backgroundVideo.pause();
+                youtubePlayer.addEventListener('load', function () {
+                    youtubePlayer.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+                });
+            });
+
+            // this makes the video go away when you click anywhere else on the screen
+            document.addEventListener('click', function (event) {
+                if (event.target !== videoButton && !videoPlayer.contains(event.target)) {
+                    videoPlayer.style.display = 'none';
+                    youtubePlayer.src = "";
+                    backgroundVideo.play();
+                }
+            });
+        </script>
+    </header>
+
+
+
+
+
+
+</body>
