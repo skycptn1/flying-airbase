@@ -1,0 +1,36 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+
+.background-image {
+    background-image: url(../img/empty-frames-gallery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    display: flex;
+    text-align: center;
+    justify-content: top;
+
+}
+
+section {
+    margin: 200px;
+    /* Add some spacing between sections */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
