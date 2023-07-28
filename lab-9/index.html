@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Add our required metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>layouts with Bootstrap</title>
+    <meta name="description" content="this week we will be looking at how to create layouts using flexbox">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Add our fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Add our jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <!-- Add Bootstrap (https://getbootstrap.com/) -->
+    <!-- remove this for the lesson! -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Bootstrap Icons (https://icons.getbootstrap.com/#usage) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Bootstrap JS (https://getbootstrap.com/) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- Add our own CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- to get started we will be using a standard Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-dark" data-bs-theme="dark">
+        <!-- ... (the existing navbar code remains unchanged) ... -->
+    </nav>
+    <main>
+        <!-- ... (the existing content remains unchanged) ... -->
+
+        <!-- i call this novel (row) lorem in six parts -->
+        <section class="row">
+            <div class="col-md-2">
+                <h2>Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                magna a nunc
+                bibendum, eget iaculis odio faucibus. Nulla facilisi. Maecenas quis dui ac arcu tincidunt congue at eu
+                ex. Sed tincidunt, quam nec maximus venenatis, eros mi sagittis mi, ac varius elit neque in orci. Aenean
+                vehicula, mi eu dictum hendrerit, nulla felis sodales elit, eu venenatis massa ligula in nisi. Sed
+                ultrices bibendum justo, eget venenatis massa. Nam et tristique neque.
+
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ac finibus
+                velit, ut sagittis sapien. Praesent euismod euismod enim, at posuere ex malesuada ut. Curabitur id felis
+                felis. Ut dictum, lorem vel bibendum varius, ligula turpis mattis ipsum, nec gravida elit metus at elit.
+                Integer varius, sapien eu sagittis euismod, erat elit volutpat nisi, in tristique sapien metus at
+                tellus.
+
+                Quisque ut magna risus. Nulla facilisi. Nulla eget libero eu enim ultrices tincidunt. Nunc ut leo et mi
+                accumsan tincidunt. In nec ipsum eu purus euismod commodo sit amet et enim. In hac habitasse platea
+                dictumst. Cras sit amet scelerisque odio.
+
+            </div>
+            <div class="col-md-2">
+                <h2>Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                magna a nunc
+                bibendum, eget iaculis odio faucibus. Nulla facilisi. Maecenas quis dui ac arcu tincidunt congue at eu
+                ex. Sed tincidunt, quam nec maximus venenatis, eros mi sagittis mi, ac varius elit neque in orci. Aenean
+                vehicula, mi eu dictum hendrerit, nulla felis sodales elit, eu venenatis massa ligula in nisi. Sed
+                ultrices bibendum justo, eget venenatis massa. Nam et tristique neque.
+
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ac finibus
+                velit, ut sagittis sapien. Praesent euismod euismod enim, at posuere ex malesuada ut. Curabitur id felis
+                felis. Ut dictum, lorem vel bibendum varius, ligula turpis mattis ipsum, nec gravida elit metus at elit.
+                Integer varius, sapien eu sagittis euismod, erat elit volutpat nisi, in tristique sapien metus at
+                tellus.
+
+            </div>
+            <div class="col-md-2">
+                <h2>Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                magna a nunc
+                bibendum, eget iaculis odio faucibus. Nulla facilisi. Maecenas quis dui ac arcu tincidunt congue at eu
+                ex. Sed tincidunt, quam nec maximus venenatis, eros mi sagittis mi, ac varius elit neque in orci. Aenean
+                vehicula, mi eu dictum hendrerit, nulla felis sodales elit, eu venenatis massa ligula in nisi. Sed
+                ultrices bibendum justo, eget venenatis massa. Nam et tristique neque.
+
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ac finibus
+                velit, ut sagittis sapien. Praesent euismod euismod enim, at posuere ex malesuada ut. Curabitur id felis
+                felis. Ut dictum, lorem vel bibendum varius, ligula turpis mattis ipsum, nec gravida elit metus at elit.
+                Integer varius, sapien eu sagittis euismod, erat elit volutpat nisi, in tristique sapien metus at
+                tellus.
+
+                Quisque ut magna risus. Nulla facilisi. Nulla eget libero eu enim ultrices tincidunt. Nunc ut leo et mi
+                accumsan tincidunt. In nec ipsum eu purus euismod commodo sit amet et enim. In hac habitasse platea
+                dictumst. Cras sit amet scelerisque odio.
+
+                Maecenas suscipit neque id neque luctus mollis. Fusce pellentesque ligula vitae odio dignissim, nec
+                elementum ipsum consectetur. Etiam euismod fermentum augue, nec sagittis libero egestas et. Sed
+                malesuada ligula eu tortor volutpat, nec feugiat turpis facilisis. Nulla facilisi. Etiam at bibendum
+                sapien, non tristique arcu. Suspendisse fringilla venenatis tortor, at aliquam elit ultrices in.
+
+                Aliquam eu arcu vel dui scelerisque congue ac eu arcu. Praesent dictum libero ac bibendum dictum. In non
+                bibendum est. Suspendisse eu magna non mi rhoncus gravida. Nullam consectetur quam eu eros luctus, id
+                luctus erat consequat. Fusce quis lectus non turpis pharetra vehicula a a dolor.
+
+            </div>
+            <div class="col-md-2">
+                <h2>Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                magna a nunc
+                bibendum, eget iaculis odio faucibus. Nulla facilisi. Maecenas quis dui ac arcu tincidunt congue at eu
+                ex. Sed tincidunt, quam nec maximus venenatis, eros mi sagittis mi, ac varius elit neque in orci. Aenean
+                vehicula, mi eu dictum hendrerit, nulla felis sodales elit, eu venenatis massa ligula in nisi. Sed
+                ultrices bibendum justo, eget venenatis massa. Nam et tristique neque.
+
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ac finibus
+                velit, ut sagittis sapien. Praesent euismod euismod enim, at posuere ex malesuada ut. Curabitur id felis
+                felis. Ut dictum, lorem vel bibendum varius, ligula turpis mattis ipsum, nec gravida elit metus at elit.
+                Integer varius, sapien eu sagittis euismod, erat elit volutpat nisi, in tristique sapien metus at
+                tellus.
+
+                Quisque ut magna risus. Nulla facilisi. Nulla eget libero eu enim ultrices tincidunt. Nunc ut leo et mi
+                accumsan tincidunt. In nec ipsum eu purus euismod commodo sit amet et enim. In hac habitasse platea
+                dictumst. Cras sit amet scelerisque odio.
+
+                Maecenas suscipit neque id neque luctus mollis. Fusce pellentesque ligula vitae odio dignissim, nec
+                elementum ipsum consectetur. Etiam euismod fermentum augue, nec sagittis libero egestas et. Sed
+                malesuada ligula eu tortor volutpat, nec feugiat turpis facilisis. Nulla facilisi. Etiam at bibendum
+                sapien, non tristique arcu. Suspendisse fringilla venenatis tortor, at aliquam elit ultrices in.
+
+            </div>
+            <div class="col-md-2">
+                <h2>Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                magna a nunc
+                bibendum, eget iaculis odio faucibus. Nulla facilisi. Maecenas quis dui ac arcu tincidunt congue at eu
+                ex. Sed tincidunt, quam nec maximus venenatis, eros mi sagittis mi, ac varius elit neque in orci. Aenean
+                vehicula, mi eu dictum hendrerit, nulla felis sodales elit, eu venenatis massa ligula in nisi. Sed
+                ultrices bibendum justo, eget venenatis massa. Nam et tristique neque.
+
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ac finibus
+                velit, ut sagittis sapien. Praesent euismod euismod enim, at posuere ex malesuada ut. Curabitur id felis
+                felis. Ut dictum, lorem vel bibendum varius, ligula turpis mattis ipsum, nec gravida elit metus at elit.
+                Integer varius, sapien eu sagittis euismod, erat elit volutpat nisi, in tristique sapien metus at
+                tellus.
+
+                Quisque ut magna risus. Nulla facilisi. Nulla eget libero eu enim ultrices tincidunt. Nunc ut leo et mi
+                accumsan tincidunt. In nec ipsum eu purus euismod commodo sit amet et enim. In hac habitasse platea
+                dictumst. Cras sit amet scelerisque odio.
+
+                Maecenas suscipit neque id neque luctus mollis. Fusce pellentesque ligula vitae odio dignissim, nec
+                elementum ipsum consectetur. Etiam euismod fermentum augue, nec sagittis libero egestas et. Sed
+                malesuada ligula eu tortor volutpat, nec feugiat turpis facilisis. Nulla facilisi. Etiam at bibendum
+                sapien, non tristique arcu. Suspendisse fringilla venenatis tortor, at aliquam elit ultrices in.
+
+            </div>
+            <div class="col-md-2">
+                <h2>Title</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar
+                magna a nunc
+                bibendum, eget iaculis odio faucibus. Nulla facilisi. Maecenas quis dui ac arcu tincidunt congue at eu
+                ex. Sed tincidunt, quam nec maximus venenatis, eros mi sagittis mi, ac varius elit neque in orci. Aenean
+                vehicula, mi eu dictum hendrerit, nulla felis sodales elit, eu venenatis massa ligula in nisi. Sed
+                ultrices bibendum justo, eget venenatis massa. Nam et tristique neque.
+
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ac finibus
+                velit, ut sagittis sapien. Praesent euismod euismod enim, at posuere ex malesuada ut. Curabitur id felis
+                felis. Ut dictum, lorem vel bibendum varius, ligula turpis mattis ipsum, nec gravida elit metus at elit.
+                Integer varius, sapien eu sagittis euismod, erat elit volutpat nisi, in tristique sapien metus at
+                tellus.
+
+                Quisque ut magna risus. Nulla facilisi. Nulla eget libero eu enim ultrices tincidunt. Nunc ut leo et mi
+                accumsan tincidunt. In nec ipsum eu purus euismod commodo sit amet et enim. In hac habitasse platea
+                dictumst. Cras sit amet scelerisque odio.
+
+                Maecenas suscipit neque id neque luctus mollis. Fusce pellentesque ligula vitae odio dignissim, nec
+                elementum ipsum consectetur. Etiam euismod fermentum augue, nec sagittis libero egestas et. Sed
+                malesuada ligula eu tortor volutpat, nec feugiat turpis facilisis. Nulla facilisi. Etiam at bibendum
+                sapien, non tristique arcu. Suspendisse fringilla venenatis tortor, at aliquam elit ultrices in.
+
+                Aliquam eu arcu vel dui scelerisque congue ac eu arcu. Praesent dictum libero ac bibendum dictum. In non
+                bibendum est. Suspendisse eu magna non mi rhoncus gravida. Nullam consectetur quam eu eros luctus, id
+                luctus erat consequat. Fusce quis lectus non turpis pharetra vehicula a a dolor.
+
+            </div>
+        </section>
+
+        <!-- row with 2 columns with the lorum blerb and round logo -->
+        <section class="row">
+            <div class="col-md-6">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda doloremque eius, enim est
+                    maiores quae quas saepe soluta ut! Accusamus aliquid dolores ex, ipsa iusto pariatur ut. Distinctio,
+                    dolores!</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Title</h2>
+                <img src="img/sample-logo.png" alt="round logo" class="rounded-circle img-fluid">
+            </div>
+        </section>
+
+        <!-- row with the sparce table... barely a feast  -->
+        <section class="row">
+            <div class="col-md-12">
+                <table class="table table-striped table-hover">
+                    <tbody>
+                        <tr>
+                            <td>Row A</td>
+
+                        </tr>
+                        <tr>
+                            <td>Row B</td>
+
+                        </tr>
+                        <tr>
+                            <td>Row C</td>
+
+                        </tr>
+                        <tr>
+                            <td>Row D</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

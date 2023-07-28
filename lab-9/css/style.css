@@ -1,0 +1,35 @@
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 2% 5%;
+}
+p,a,li,figcaption{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+  width: auto;
+  height: 110px;
+}
+.navbar-brand img{
+  width: auto;
+  height: 100%;
+}
+.masthead{
+  height: 100vh;
+  background-image: url("../img/sample-1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.masthead div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,.7);
+  height: 100%;
+}
+.masthead div h1{
+  font-size: 90px;
+  color: #f8f8f8;
+  text-align: center;
+}
