@@ -1,0 +1,123 @@
+/*
+colors/ fonts for refrence
+• Blue = #125784
+• Purple = #5e35b1
+• Orange = #f57f17
+• Heading Text = Montserrat
+• Body Text = Roboto
+
+*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 250px;
+    background-color: #125784;
+    color: #fff;
+    margin: auto;
+
+    font-size: x-large;
+}
+
+header>div>a>img {
+    width: auto;
+    height: 125px;
+    align-self: flex-start;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+main>section>h1 {
+    background-image: url(../resources/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f8f8f8;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+
+    padding: 100px;
+}
+
+main>section:nth-child(odd) {
+    text-align: left;
+    background-color: #f57f17;
+    color: #f8f8f8;
+}
+
+main>section:nth-child(even) {
+    text-align: left;
+    background-color: #f57f17;
+    color: #f8f8f8;
+}
+
+main>section>div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.img-section {
+    display: flex;
+}
+
+.image-section img {
+    justify-content: center;
+    flex: 0 0 auto;
+    max-width: 30%;
+    height: auto;
+}
+
+section+section+section {
+    background-color: clear;
+}
+
+main>section+section+section+section>form {
+    background-color: #5e35b1;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* Align items to left and right */
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: #fff;
+}
+
+footer>h1 {
+    font-size: x-large;
+    text-align: center
+}
+
+footer>h1>p {
+    font-size: medium;
+}
+
+footer>div>a>img {
+    width: auto;
+    height: 125px;
+    align-self: flex-start;
+}
