@@ -1,0 +1,102 @@
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    font-family: 'Macondo', cursive;
+    color: #18abcc;
+    background-color: black;
+    font-size: 1.25rem;
+    background-image: url(./img/istvann3.jpeg);
+    background-size: cover;
+    text-shadow: 1px 1px 0 black;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    font-family: 'metal mania';
+    color: #cfb53b;
+    font-size: 3rem;
+    text-shadow: 3px 3px 0 #471f5f;
+}
+
+.psychic {
+    font-family: 'macondo', cursive;
+    color: #18abcc;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.istvann {
+    color: yellowgreen;
+    font-family: 'metal mania';
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.fulgrim {
+    color: #f4afcd;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 1.75rem;
+}
+
+.fulgrim_wounded {
+    color: #f4afcd;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 1.70rem;
+    opacity: 60%;
+}
+
+.rylenor {
+    color: #471f5f;
+    font-family: 'metal mania';
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 3px 3px 0 #cfb53b;
+}
+
+.virus_bomb {
+    color: yellowgreen;
+    font-family: 'metal mania';
+    font-size: 2.25rem;
+}
+
+.magic {
+    color: #18abcc;
+    font-family: 'macondo', cursive;
+    font-size: 1.75rem;
+    font-weight: bolder;
+}
+
+.emperors_light {
+    color: #cfb53b;
+    font-family: 'metal mania';
+    font-size: 2.25rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #471f5f;
+}
+
+.honor {
+    font-family: 'macondo', cursive;
+    color: #cfb53b;
+    font-size: 1.25;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #18abcc;
+}
+
+.honor_in_death {
+    font-family: 'macondo', cursive;
+    color: #cfb53b;
+    font-size: 1.25;
+    font-weight: bold;
+    opacity: 90%;
+    text-shadow: 3px 3px 0 #18abcc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
